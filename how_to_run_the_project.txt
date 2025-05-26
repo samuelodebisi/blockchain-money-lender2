@@ -1,0 +1,17 @@
+--- Open a command prompt in the current directory, and run the commands below.
+--- the commands work only on a windows machine.
+--- text with preceding hyphens are comments, and should be ignored when typing on the command prompt
+
+--- Skip this lines if you're using any of the school system
+
+python -m venv .\venv   
+
+.\venv\Scripts\activate
+
+--- continue with the rest commands
+
+pip install -r .\requirements.txt
+
+python money_lender_app.py
+
+http://localhost:5000/openapi/swagger
